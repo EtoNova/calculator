@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+* {
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    color: beige;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    flex-wrap: wrap;
+}
+
+#numbers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 300px; 
+}
+
+#operations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-content: flex-start;
+    width: 200px;
+}
+
+#equals, #clear {
+    height: 80px;
+    width: 160px;
+    padding: 5px;  
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+#equals {
+    background-color: rgb(119, 212, 144);
+    border-color: rgb(89, 148, 89);
+}
+
+#clear {
+    background-color: rgb(253, 137, 137);
+    border-color: rgb(148, 89, 89);
+}
+
+.num, .op {
+    height: 80px;
+    width: 80px;
+    padding: 5px;  
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+.num {
+    background-color: rgb(190, 241, 241);
+    border-color: rgb(120, 167, 167);
+}
+
+.op {
+    background-color: rgb(255, 158, 21);
+    border-color: rgb(143, 105, 38);
+}
+
+#display {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-color: rgb(151, 151, 151);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+}
