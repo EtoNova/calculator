@@ -70,7 +70,7 @@ function displayNum(event) {
         didEqualOp = false; 
     }
     
-    if (num1 === "") {
+    if (operator === "") {
         num1 += event.target.textContent; 
         display.textContent += event.target.textContent; 
     }
