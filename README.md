@@ -9,7 +9,7 @@ The calculator performs basic arithmetic operations: addition, subtraction, mult
 The project also accounts for common edge cases such as consecutive operators, division by zero, rounding long decimals, and fully resetting the calculator state when cleared.
 
 ## Live Demo
-<!--https://etonova.github.io/calculator/ -->
+https://etonova.github.io/calculator/
 
 ## Skills Demonstrated
 - JavaScript Logic: Built reusable functions and controlled application flow

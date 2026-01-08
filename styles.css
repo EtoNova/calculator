@@ -56,9 +56,17 @@ h1 {
     border-color: rgb(89, 148, 89);
 }
 
+#equals:hover {
+    background-color: rgb(99, 177, 120);
+}
+
 #clear {
     background-color: rgb(253, 137, 137);
     border-color: rgb(148, 89, 89);
+}
+
+#clear:hover {
+    background-color: rgb(196, 107, 107);
 }
 
 .num, .op {
@@ -84,13 +92,23 @@ h1 {
     border-color: rgb(143, 105, 38);
 }
 
+.num:hover {
+    background-color: rgb(157, 209, 209);
+}
+
+.op:hover {
+     background-color: rgb(207, 129, 20);
+}
+
 #display {
     display: flex;
     flex-shrink: 1;
     justify-content: end;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+    height: 70px;
     background-color: rgb(235, 234, 234);
     padding: 10px;
     font-size: 40px;
